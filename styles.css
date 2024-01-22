@@ -59,9 +59,12 @@ body{
 
  #hero{
     width: 100%;
-    min-height: 700px;
+    min-height: 500px;
     margin-top: 10px;
-    background-color: #12bd00;
+    background: url(assets/financials-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
  }
 
  #hero-text{
@@ -69,7 +72,7 @@ body{
     width: 100%;
     height: 300px;
     margin: auto;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-left: 100px;
  }
 
@@ -79,6 +82,7 @@ body{
     line-height: 105px;
     font-weight: bold;
     text-shadow: 5px 1px 5px black;
+    
 }
 
 /*company background */
@@ -186,7 +190,7 @@ body{
 #services-rendered{
     max-width: 100%;
     min-height: 600px;
-    margin-top: 80px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -212,6 +216,7 @@ body{
     width: 90%;
     height: 300px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     
 }
@@ -230,7 +235,9 @@ body{
 #services-img{
     height: 190px;
     width: 240px;
-    background-color: #85bcc8;
+    background: url(assets/animal-feed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5px;
     border-radius: 10px;
 }
@@ -239,4 +246,175 @@ body{
     text-align: center;
     color: white;
     padding: 10px  10px;
+}
+
+/* goals and objective section */
+
+#goals{
+    max-width: 100%;
+    min-height: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+#goals h3{
+    width: 80%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#goals-row-1{
+    height: 450px;
+    width: 70%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#goals-row-2{
+    height: 400px;
+    width: 70%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.goals{
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.goals-img-1{
+    width: 100%;
+    min-height: 300px;
+    background: url(assets/vision.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.goals-img-2{
+    width: 100%;
+    min-height: 300px;
+    background: url(assets/mission.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.goals-img-3{
+    width: 100%;
+    min-height: 300px;
+    background: url(assets/objective.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.goals-img-4{
+    width: 100%;
+    min-height: 300px;
+    background: url(assets/economic-intent.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.goals h5{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.goals p{
+    color: white;
+    text-align: center;
+    padding: 0 20px 10px 20px;
+}
+
+/*management tean and ownership style section*/
+
+#management-team-head-section{
+    max-width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 50px;
+}
+#management-team-text{
+    width: 40%;
+    height: 380px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#head-text{ 
+    background-color: black;
+    width: 90%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#head-text h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#director-text{
+    margin-top: 10px;
+}
+
+#director-text h6{
+    font-size: 20px;
+}
+
+#director-text p{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#management-team-img{
+    width: 40%;
+    height: 380px;
+    background: url(assets/team.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
