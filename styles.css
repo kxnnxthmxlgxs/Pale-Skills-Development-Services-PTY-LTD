@@ -21,25 +21,33 @@ body{
 #nav-bar{
     width: 100%;
     min-height: 50px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 #nav-bar ul{
     display: flex;
     justify-content: flex-end;
-    gap: 30px;
+    gap: 40px;
     padding-right: 50px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 #nav-bar li{
     list-style: none;
     display: block;
+    text-align: center;
 }
 
 #nav-bar a{
     text-decoration: none;
     color: black;
     display: block;
-    padding: 10px;
+    padding: 8px 12px;
+    font-size: 15px;
 }
 
 /*nav bar hover */
@@ -112,6 +120,7 @@ body{
 .company-background p{
     color: white;
     font-size: 18px;
+    line-height: 40px;
 }
 
 .company-background h5{
@@ -157,7 +166,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-}
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
 
 #project-img-1{
     width: 350px;
@@ -183,6 +192,7 @@ body{
 .project p{
     padding: 20px 20px 10px 30px;
     color: white;
+    line-height: 23px;
 }
 
 /* services rendered section styles*/
@@ -201,7 +211,8 @@ body{
     width: 80%;
     text-align: center;
     font-size: 40px;
-    padding: 20px;    
+    padding: 20px;
+    
 }
 
 #services-row-1{
@@ -230,9 +241,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-#services-img{
+#services-img-1{
     height: 190px;
     width: 240px;
     background: url(assets/animal-feed.jpg);
@@ -242,10 +254,82 @@ body{
     border-radius: 10px;
 }
 
+#services-img-2{
+    height: 190px;
+    width: 240px;
+    background: url(assets/animal-feed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#services-img-3{
+    height: 190px;
+    width: 240px;
+    background: url(assets/animal-feed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#services-img-4{
+    height: 190px;
+    width: 240px;
+    background: url(assets/animal-feed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#services-img-5{
+    height: 190px;
+    width: 240px;
+    background: url(assets/animal-feed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#services-img-6{
+    height: 190px;
+    width: 240px;
+    background: url(assets/animal-feed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#services-img-7{
+    height: 190px;
+    width: 240px;
+    background: url(assets/animal-feed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#services-img-8{
+    height: 190px;
+    width: 240px;
+    background: url(assets/animal-feed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
 .service p{
     text-align: center;
     color: white;
     padding: 10px  10px;
+    line-height: 25px;
 }
 
 /* goals and objective section */
@@ -253,12 +337,11 @@ body{
 #goals{
     max-width: 100%;
     min-height: 600px;
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
     padding: 50px;
 }
 
@@ -266,85 +349,94 @@ body{
     width: 80%;
     text-align: center;
     font-size: 50px;
-    color: white;
+    color: black;
+    
 }
 
 #goals-row-1{
-    height: 450px;
-    width: 70%;
+    height: 500px;
+    width: 80%;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 #goals-row-2{
-    height: 400px;
-    width: 70%;
+    height: 500px;
+    width: 80%;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .goals{
-    width: 400px;
+    width: 500px;
     height: 450px;
-    background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    background-color: transparent;
 }
 
 .goals-img-1{
-    width: 100%;
+    width: 90%;
     min-height: 300px;
     background: url(assets/vision.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .goals-img-2{
-    width: 100%;
+    width: 90%;
     min-height: 300px;
     background: url(assets/mission.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 
 .goals-img-3{
-    width: 100%;
+    width: 90%;
     min-height: 300px;
     background: url(assets/objective.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 
 .goals-img-4{
-    width: 100%;
+    width: 90%;
     min-height: 300px;
     background: url(assets/economic-intent.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
 
 .goals h5{
-    color: white;
+    color: black;
     text-align: center;
     padding: 5px;
     font-size: 30px;
@@ -352,9 +444,10 @@ body{
 }
 
 .goals p{
-    color: white;
+    color: black;
     text-align: center;
     padding: 0 20px 10px 20px;
+    line-height: 30px;
 }
 
 /*management tean and ownership style section*/
@@ -389,7 +482,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-}
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
 
 #head-text h2{
     font-size: 40px;
@@ -408,6 +501,8 @@ body{
 #director-text p{
     width: 100%;
     margin-top: 10px;
+    line-height: 25px;
+    font-size: 15px;
 }
 
 #management-team-img{
@@ -417,4 +512,109 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
+}
+
+#management-team-members{
+    max-width: 80%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#management-team-members p{
+    line-height: 30px;
+    font-size: 14px;
+}
+
+/* Coclusion section */
+#conclusion {
+    max-width: 100%;
+    min-height: 200px;
+    background: var(--red-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 10px 0;
+    margin-top: 50px;
+}
+
+#conclusion h2{
+    color: white;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+#conclusion p{
+    color: white;
+    width: 80%;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0 0 20px 0;
+}
+
+/*contact us section */
+
+#contact-us-block{
+    max-width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#contact-us-inner-block{
+    width: 80%;
+    height: 480px;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+
+#contact-info{
+    width: 50%;
+    height: 480px;
+    background: var(--sky-blue-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#contact-info h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+#contact-info p{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+#contact-us-img{
+    width: 50%;
+    height: 500px;
+    background: url(assets/get-in-touch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 80px;
 }
