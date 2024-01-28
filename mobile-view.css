@@ -15,6 +15,10 @@
         margin: 0;
         font-family: 'Geologica', sans-serif;
     }
+
+    html{
+        scroll-behavior: smooth;
+    }
     
     body{
         overflow-x: hidden;
@@ -34,7 +38,7 @@
     #nav-bar ul{
         display: flex;
         justify-content: center;
-        gap: 40px;
+        gap: 20px;
         padding-top: 5px;
     }
     
@@ -49,7 +53,7 @@
         color: black;
         display: block;
         padding: 8px 12px;
-        font-size: 13px;
+        font-size: 12px;
     }
     
     /*nav bar hover */
