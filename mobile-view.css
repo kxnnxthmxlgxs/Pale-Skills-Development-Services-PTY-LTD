@@ -540,7 +540,7 @@
     }
     
     #management-team-img{
-        width: 100%;
+        width: 100vw;
         height: 300px;
         background: url(assets/team.jpg);
         background-repeat: no-repeat;
@@ -566,7 +566,7 @@
     
     /* Coclusion section */
     #conclusion {
-        max-width: 100%;
+        max-width: 100vw;
         min-height: 150px;
         background: var(--red-color);
         display: flex;
