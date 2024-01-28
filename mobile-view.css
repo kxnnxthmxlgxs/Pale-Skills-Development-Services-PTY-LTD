@@ -39,13 +39,12 @@
     #nav-bar ul{
         display: flex;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
         padding-top: 5px;
     }
     
     #nav-bar li{
         list-style: none;
-        display: block;
         text-align: center;
     }
     
