@@ -409,13 +409,14 @@
     
     .goals{
         width: 500px;
-        height: 450px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         border-radius: 20px;
         background-color: red;
+        margin: 20px auto;
     }
     
     .goals-img-1{
@@ -427,7 +428,7 @@
         background-position: left;
         border-radius: 20px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        
+        margin-top: -20px;
     }
     
     .goals-img-2{
