@@ -363,7 +363,7 @@
     
     #goals{
         max-width: 100%;
-        min-height: 1000px;
+        min-height: 1200px;
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -371,6 +371,7 @@
         align-items: center;
         padding: 10px;
         margin-top: -40px;
+        background-color: #12bd00;
     }
     
     #goals h3{
