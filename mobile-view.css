@@ -623,7 +623,7 @@
     
     #contact-info{
         width: 90%;
-        height: 300px;
+        height: 370px;
         background: var(--sky-blue-color);
         display: flex;
         flex-direction: column;
